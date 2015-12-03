@@ -10,7 +10,7 @@
 
 	<name>speaktor</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -72,8 +72,42 @@
 
 		</dependency>
 
+		<!-- SEGURANÇA - INÍCIO -->
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-web</artifactId>
+			<version>4.0.3.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-config</artifactId>
+			<version>4.0.3.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>3.0.3.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>3.1.0.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>3.0.2.RELEASE</version>
+		</dependency>
+
+		<!-- SEGURANÇA - FIM -->
+
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -82,5 +116,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
 </project>
